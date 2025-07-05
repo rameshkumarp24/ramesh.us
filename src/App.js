@@ -9,13 +9,22 @@ function App() {
           📱 +91 9884532891 | 📧{' '}
           <a href="mailto:rameshkumarpoliah@gmail.com" style={styles.link}>
             rameshkumarpoliah@gmail.com
+          </a>{' '}
+          | 🔗{' '}
+          <a
+            href="https://www.linkedin.com/in/rameshkumarp/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={styles.link}
+          >
+            LinkedIn
           </a>
         </p>
       </header>
 
       <Section title="Summary">
         <p>
-          Results-driven Architect with 13 years of experience developing high-performance and
+          Results-driven Architect with <strong>14 years</strong> of experience developing high-performance and
           cutting-edge web applications using ReactJS, NextJS, ExpressJS, NodeJS. Expertise in
           TypeScript, JavaScript, Redux, GraphQL, Jest, Java, Spring Boot, AWS and CI/CD pipelines.
           Proven leader in agile environments, delivering scalable, high-quality applications and
