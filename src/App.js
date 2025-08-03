@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function App() {
   return (
@@ -6,134 +6,226 @@ function App() {
       <header style={styles.header}>
         <h1 style={styles.name}>RAMESH KUMAR P</h1>
         <p style={styles.contact}>
-          📱 +91 9884532891 | 📧 <a href="mailto:rameshkumarpoliah@gmail.com" style={styles.link}>rameshkumarpoliah@gmail.com</a> | 🔗 <a href="https://www.linkedin.com/in/rameshkumarp/" style={styles.link} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          📍 Bangalore, Karnataka, India | 📱 +91 9003547480 | 📧{" "}
+          <a href="mailto:rkkv5892@gmail.com" style={styles.link}>
+            rkkv5892@gmail.com
+          </a>{" "}
+          | 🔗{" "}
+          <a
+            href="https://www.linkedin.com/in/rameshkumarp/"
+            style={styles.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>{" "}
+          | 🌐{" "}
+          <a
+            href="https://ramesh.us"
+            style={styles.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ramesh.us
+          </a>
         </p>
       </header>
 
-      <Section title="Summary">
-        <p>Results-driven Architect with 14 years of experience developing high-performance and cutting-edge web applications using ReactJS, Next JS, Express JS, Node JS. Expertise in TypeScript, JavaScript, Redux, GraphQL, Jest, Java, Spring Boot, AWS and CI/CD pipelines. Proven leader in agile environments, delivering scalable, high-quality applications and driving team success. Recognized for technical excellence and problem-solving with multiple awards. Seeking to bring deep web expertise and innovative solutions to prospective tech company.</p>
+      <Section title="Professional Summary">
+        <p>
+          Result oriented Software Architect with 14+ years of experience
+          designing, developing, and deploying scalable, high-performance
+          software solutions across diverse industries. Expert in system
+          architecture, security architecture, cloud computing, microservices,
+          microfrontend, and distributed systems. Proven leadership in driving
+          initiatives from concept to launch, optimizing system performance, and
+          mentoring teams. Passionate about innovation, best practices, and
+          delivering business-aligned solutions.
+        </p>
       </Section>
 
-      <Section title="Professional Experience">
-        <Job
-          title="Application Architect"
-          company="IBM"
-          duration="Sep 2022 - Present"
-          bullets={[
-            'Architect and develop scalable web applications using React JS, integrating features like notifications, GraphQL APIs and multilingual support.',
-            'Lead and mentor a team of engineers in agile methodologies, ensuring high-quality code through rigorous peer reviews and code optimization.',
-            'Implement CI/CD pipelines using Azure DevOps and AppCenter, optimizing deployment processes and reducing release times by 30%.',
-            'Conduct in-depth performance profiling and debugging using DevTools, Sentry and Flipper to enhance app stability and user experience.'
-          ]}
-        />
-        <Job
-          title="Technical Architect"
-          company="Impelsys"
-          duration="Jul 2019 - Sep 2022"
-          bullets={[
-            'Spearheaded the development of web applications focusing on seamless user experience and performance optimization.',
-            'Integrated Redux for state management, designed reusable components and implemented GraphQL for efficient data handling, reducing API response time by 20%.',
-            'Built unit and regression tests with Jest, achieving 95% code coverage and reducing bugs by 40% in production.'
-          ]}
-        />
-        <Job
-          title="Technical Lead"
-          company="Infomerica Inc"
-          duration="Dec 2018 - Jun 2019"
-          bullets={[
-            'Led a cross-functional team to deliver React JS web applications with robust performance and responsive design, achieving a 4.8+ user rating across platforms.',
-            'Conducted architecture design reviews, task monitoring and hands-on development to ensure project alignment with client requirements and industry standards.'
-          ]}
-        />
-        <Job
-          title="Technical Lead"
-          company="Nextbrain Technologies"
-          duration="Jun 2018 - Nov 2018"
-          bullets={[
-            'Managed the end-to-end development of web applications using React JS, optimizing code for scalability and maintainability.',
-            'Collaborated closely with stakeholders to gather requirements and deliver solutions that exceeded client expectations.'
-          ]}
-        />
-        <p style={styles.paragraph}><strong>Other Roles</strong></p>
+      <Section title="Core Competencies">
         <ul>
-          <li>Senior Software Engineer - III, Nous Infosystems (Aug 2017 – June 2018)</li>
-          <li>Senior Consultant - IT, Sutherland Global Services (Mar 2016 – Aug 2017)</li>
-          <li>Engineer, Aspire Systems (Feb 2013 – Mar 2016)</li>
-          <li>Associate Technology L1, Publicis Sapient (Jan 2011 – Nov 2011)</li>
-          <li>Graduate Trainee, Tata Consultancy Services (Jul 2007 – Feb 2008)</li>
+          <li>Software Architecture & Design Patterns</li>
+          <li>Cloud Platforms (AWS, Azure, GCP)</li>
+          <li>Microservices & Distributed Systems</li>
+          <li>RESTful APIs / GraphQL / gRPC</li>
+          <li>CI/CD Automation & DevOps Practices</li>
+          <li>Database Systems (SQL, NoSQL, NewSQL)</li>
+          <li>System Scalability & Performance Optimization</li>
+          <li>Event-Driven Architecture (Kafka, RabbitMQ)</li>
+          <li>Containerization (Docker, Kubernetes)</li>
+          <li>Domain-Driven Design (DDD)</li>
+          <li>Agile / Scrum Methodologies</li>
+          <li>Technical Mentorship & Team Leadership</li>
         </ul>
-      </Section>
-
-      <Section title="Key Projects">
-        <Project
-          name="Toyota VCG (Vehicle Configuration Gateway) App"
-          bullets={[
-            'Designed and developed this application using React JS, Node JS, Material UI, GraphQL, Jest.',
-            'Architected the app from scratch, implemented complex specifications handling and integrated nested UI components.',
-            'developed AppSync real time data update application wide.'
-          ]}
-        />
-        <Project
-          name="Ascension One App"
-          bullets={[
-            'Developed web application for patient care using React JS and NextJS, enhancing user experience with intuitive UI components and state management using Redux.',
-            'Involved in API and database design using Node JS and Spring Boot using AWS Aurora and DynamoDB and also was part of elastic search implementation.'
-          ]}
-        />
-        <Project
-          name="GLG Experts Network App"
-          bullets={[
-            'This web application was developed using React JS for for the network members where they can create and maintain their profile, get assigned for a particular project through appointment booking etc.',
-            'Developed entire appointment booking profile account, resume, help, FAQ, contact us etc'
-          ]}
-        />
-        <Project
-          name="Blackberry Product Catalog Admin App"
-          bullets={[
-            'This application is used to capture various product details and images in the back office for the products information to be displayed on the products website. Technology used are React JS, Material UI, GraphQL.',
-            'Led development of various modules, agile ceremonies and code reviews, driving continuous improvement and team performance.'
-          ]}
-        />
       </Section>
 
       <Section title="Technical Skills">
         <ul>
-          <li>Languages: HTML, CSS, TypeScript, JavaScript, Java, Python</li>
-          <li>Web & Backend: React JS, Express JS, Next JS, MongoDB, PostgreSQL, DynamoDB, Aurora DB</li>
-          <li>Frameworks: Material UI, GraphQL, Jest, Node JS, i18next</li>
-          <li>Cloud: AWS Lambda, API Gateway, DynamoDB, EC2, S3, IAM, Lambda, RDS, CloudWatch</li>
-          <li>Tools: Visual Studio Code, Postman, Figma, Flipper, ESLint, Prettier</li>
+          <li>
+            <strong>Languages:</strong> Java, C#, Python, JavaScript, TypeScript
+          </li>
+          <li>
+            <strong>Frontend:</strong> React, Next.js, Angular, Vue.js, React
+            Native, .NET MAUI
+          </li>
+          <li>
+            <strong>Backend:</strong> Node.js, .NET Core, Spring Boot
+          </li>
+          <li>
+            <strong>Cloud/Infrastructure:</strong> AWS, Azure, GCP
+          </li>
+          <li>
+            <strong>Databases:</strong> PostgreSQL, MongoDB, Cassandra,
+            DynamoDB, Redis
+          </li>
+          <li>
+            <strong>DevOps Tools:</strong> Git, Jenkins, Docker, Kubernetes,
+            Terraform, Ansible
+          </li>
+          <li>
+            <strong>Architectures:</strong> Microservices, Microfrontend,
+            Serverless, Monolith Refactoring
+          </li>
+        </ul>
+      </Section>
+
+      <Section title="Professional Experience">
+        <Job
+          title="Senior Software Architect"
+          company="IBM"
+          duration="2022 – Present"
+          bullets={[
+            "Led architecture design for a $150M cloud transformation project (client: Ascension One), reducing operational costs by 35% and improving system scalability by 50%.",
+            "Designed and deployed microfrontend and microservices on AWS using Docker, ECS, and Lambda, with CI/CD pipelines via Jenkins.",
+            "Handled mobile and web applications frontend using React JS and React Native.",
+            "Introduced event-driven architecture using Kafka, improving data processing throughput by 4x.",
+            "Mentored a team of 12 engineers, improving code quality and system reliability.",
+            "Conducted architectural reviews, technical evaluations, and POCs for new technology adoption.",
+            "Key Achievements: Architect of the Year award (2024); Achieved 99.99% uptime for mission-critical applications.",
+          ]}
+        />
+        <p>
+          <strong>Project Links:</strong>
+          🌐{" "}
+          <a
+            href="https://healthcare.ascension.org/ascension-one"
+            style={styles.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Web
+          </a>{" "}
+          | 📱{" "}
+          <a
+            href="https://play.google.com/store/apps/details?id=org.ascension.one.prod"
+            style={styles.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Android
+          </a>{" "}
+          | 🍎{" "}
+          <a
+            href="https://apps.apple.com/us/app/ascension-one/id6458346040"
+            style={styles.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            iOS
+          </a>
+        </p>
+
+        <Job
+          title="Software Architect"
+          company="Impelsys"
+          duration="2019 – 2022"
+          bullets={[
+            "Architected a SaaS-based multi-tenant platform on Kubernetes and AWS.",
+            "Transitioned applications from monolithic to microservices, improving deployment velocity and system resilience.",
+            "Implemented Redis caching, reducing average API response time by 30%.",
+            "Collaborated with cross-functional teams to define technical strategies aligned with business goals.",
+            "Key Achievements: Reduced time-to-market by 25%; Built API gateway handling 10,000+ concurrent requests.",
+          ]}
+        />
+        <Job
+          title="Software Architect"
+          company="Infomerica"
+          duration="2018 – 2019"
+          bullets={[
+            "Designed scalable backend systems with Java, Spring Boot, and MySQL.",
+            "Led third-party system integrations (payment gateways, CRMs).",
+            "Promoted automated testing and peer code review practices.",
+            "Key Achievements: Reduced system incidents by 40%; Improved feature delivery speed by 20%.",
+          ]}
+        />
+        <p style={styles.paragraph}>
+          <strong>Other Roles</strong>
+        </p>
+        <ul>
+          <li>
+            <strong>Technical Lead</strong> – Nextbrain Technologies (June 2018
+            – Nov 2018)
+          </li>
+          <li>
+            <strong>Senior Software Engineer</strong> – Nous Infosystems (Aug
+            2017 – June 2018)
+          </li>
+          <li>
+            <strong>Senior Consultant - IT</strong> – Sutherland Global Services
+            (Mar 2016 – Aug 2017)
+          </li>
+          <li>
+            <strong>Engineer</strong> – Aspire Systems (Feb 2013 – Mar 2016)
+          </li>
+          <li>
+            <strong>Associate Technology L1</strong> – Publicis Sapient (Jan
+            2011 – Nov 2011)
+          </li>
+          <li>
+            <strong>Graduate Trainee</strong> – Tata Consultancy Services (Jul
+            2007 – Feb 2008)
+          </li>
         </ul>
       </Section>
 
       <Section title="Education">
         <ul>
-          <li>MCA (Computer Applications) - NIT, Tiruchirappalli (2011)</li>
-          <li>BSc (Mathematics) - The American College, Madurai (2007)</li>
+          <li>
+            <strong>MCA (Computer Applications)</strong> – NIT, Tiruchirappalli
+            (2008–2011)
+          </li>
+          <li>
+            <strong>BSc (Mathematics)</strong> – The American College, Madurai
+            (2004–2007)
+          </li>
         </ul>
       </Section>
 
-      <Section title="Awards & Recognition">
+      <Section title="Certifications">
         <ul>
-          <li>IBM Manager Choice Award (2023-2024)</li>
-          <li>Laerdal Pat on the Back (2020-2021), Team Excellence Award (2019-2020)</li>
-          <li>IQVIA Belgium Achievement Award (2018-2019)</li>
-          <li>Top-ranked trainee at TCS Ignite Training Program</li>
+          <li>AWS Certified Solutions Architect</li>
+          <li>IBM Generative AI Architect</li>
+          <li>IBM AI Data Scientist</li>
         </ul>
       </Section>
 
-      <Section title="Core Competencies">
+      <Section title="Awards & Honors">
         <ul>
-          <li>Web and Mobile Application Architecture and Development</li>
-          <li>Agile Project Management</li>
-          <li>Performance Optimization and Debugging</li>
-          <li>Cloud Integration and CI/CD Pipelines</li>
-          <li>Team Leadership and Mentorship</li>
+          <li>Manager Choice Award – IBM (2024)</li>
+          <li>Innovation Excellence Award – Impelsys (2020)</li>
+          <li>IQVIA Belgium Achievement Award – Infomerica (2019)</li>
         </ul>
       </Section>
 
       <footer style={styles.footer}>
-        <p>© 2025 Ramesh Kumar P | <a href="https://ramesh.us" style={styles.link}>ramesh.us</a></p>
+        <p>
+          © 2025 Ramesh Kumar P |{" "}
+          <a href="https://ramesh.us" style={styles.link}>
+            ramesh.us
+          </a>
+        </p>
       </footer>
     </div>
   );
@@ -148,77 +240,76 @@ const Section = ({ title, children }) => (
 
 const Job = ({ title, company, duration, bullets }) => (
   <div style={styles.job}>
-    <h3>{title}, <span style={styles.company}>{company}</span></h3>
+    <h3>
+      {title}, <span style={styles.company}>{company}</span>
+    </h3>
     <p style={styles.duration}>{duration}</p>
-    <ul>{bullets.map((b, i) => <li key={i}>{b}</li>)}</ul>
-  </div>
-);
-
-const Project = ({ name, bullets }) => (
-  <div style={styles.job}>
-    <h3>{name}</h3>
-    <ul>{bullets.map((b, i) => <li key={i}>{b}</li>)}</ul>
+    <ul>
+      {bullets.map((b, i) => (
+        <li key={i}>{b}</li>
+      ))}
+    </ul>
   </div>
 );
 
 const styles = {
   container: {
-    fontFamily: 'Segoe UI, sans-serif',
-    maxWidth: '1000px',
-    margin: '0 auto',
-    padding: '40px 24px',
-    background: '#fdfdfd',
-    color: '#1a202c',
-    lineHeight: 1.6
+    fontFamily: "Segoe UI, sans-serif",
+    maxWidth: "1000px",
+    margin: "0 auto",
+    padding: "40px 24px",
+    background: "#fdfdfd",
+    color: "#1a202c",
+    lineHeight: 1.6,
   },
   header: {
-    textAlign: 'center',
-    marginBottom: '40px'
+    textAlign: "center",
+    marginBottom: "40px",
   },
   name: {
-    fontSize: '36px',
-    marginBottom: '8px'
+    fontSize: "36px",
+    marginBottom: "8px",
   },
   contact: {
-    fontSize: '16px'
+    fontSize: "16px",
   },
   link: {
-    color: '#2b6cb0',
-    textDecoration: 'none'
+    color: "#2b6cb0",
+    textDecoration: "none",
   },
   section: {
-    marginBottom: '40px'
+    marginBottom: "40px",
   },
   sectionTitle: {
-    fontSize: '24px',
-    color: '#2d3748',
-    marginBottom: '16px',
-    borderBottom: '2px solid #cbd5e0',
-    paddingBottom: '4px'
+    fontSize: "24px",
+    color: "#2d3748",
+    marginBottom: "16px",
+    borderBottom: "2px solid #cbd5e0",
+    paddingBottom: "4px",
   },
   job: {
-    marginBottom: '20px'
+    marginBottom: "20px",
   },
   company: {
-    color: '#4a5568'
+    color: "#4a5568",
   },
   duration: {
-    fontStyle: 'italic',
-    fontSize: '14px',
-    color: '#718096',
-    marginBottom: '8px'
+    fontStyle: "italic",
+    fontSize: "14px",
+    color: "#718096",
+    marginBottom: "8px",
   },
   paragraph: {
-    marginTop: '24px',
-    marginBottom: '8px',
-    fontWeight: 'bold'
+    marginTop: "24px",
+    marginBottom: "8px",
+    fontWeight: "bold",
   },
   footer: {
-    textAlign: 'center',
-    paddingTop: '40px',
-    fontSize: '14px',
-    color: '#4a5568'
-  }
+    textAlign: "center",
+    paddingTop: "40px",
+    fontSize: "14px",
+    color: "#4a5568",
+  },
 };
 
 export default App;
