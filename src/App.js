@@ -104,39 +104,37 @@ function App() {
             "Mentored a team of 12 engineers, improving code quality and system reliability.",
             "Conducted architectural reviews, technical evaluations, and POCs for new technology adoption.",
             "Key Achievements: Architect of the Year award (2024); Achieved 99.99% uptime for mission-critical applications.",
+            <>
+              <strong>Project reference links:</strong> 🌐{" "}
+              <a
+                href="https://healthcare.ascension.org/ascension-one"
+                style={styles.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Web
+              </a>{" "}
+              | 📱{" "}
+              <a
+                href="https://play.google.com/store/apps/details?id=org.ascension.one.prod"
+                style={styles.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Android
+              </a>{" "}
+              | 🍎{" "}
+              <a
+                href="https://apps.apple.com/us/app/ascension-one/id6458346040"
+                style={styles.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                iOS
+              </a>
+            </>,
           ]}
         />
-        <p>
-          <strong>Project reference links: </strong>
-          🌐{" "}
-          <a
-            href="https://healthcare.ascension.org/ascension-one"
-            style={styles.link}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Web
-          </a>{" "}
-          | 📱{" "}
-          <a
-            href="https://play.google.com/store/apps/details?id=org.ascension.one.prod"
-            style={styles.link}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Android
-          </a>{" "}
-          | 🍎{" "}
-          <a
-            href="https://apps.apple.com/us/app/ascension-one/id6458346040"
-            style={styles.link}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            iOS
-          </a>
-        </p>
-
         <Job
           title="Software Architect"
           company="Impelsys"
