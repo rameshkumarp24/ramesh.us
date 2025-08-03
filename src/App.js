@@ -107,7 +107,7 @@ function App() {
           ]}
         />
         <p>
-          <strong>Project Links:</strong>
+          <strong>Project reference links: </strong>
           🌐{" "}
           <a
             href="https://healthcare.ascension.org/ascension-one"
