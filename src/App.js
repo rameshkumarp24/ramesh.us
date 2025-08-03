@@ -37,7 +37,7 @@ function App() {
           designing, developing, and deploying scalable, high-performance
           software solutions across diverse industries. Expert in system
           architecture, security architecture, cloud computing, microservices,
-          microfrontend, and distributed systems. Proven leadership in driving
+          microfrontend, and distributed systems. IBM trained Generative AI Architect and Data Scientist. Proven leadership in driving
           initiatives from concept to launch, optimizing system performance, and
           mentoring teams. Passionate about innovation, best practices, and
           delivering business-aligned solutions.
@@ -214,9 +214,24 @@ function App() {
 
       <Section title="Awards & Honors">
         <ul>
+          <li>
+            My certifications, credentials and badges link{" "}
+            <a
+              href="https://www.credly.com/users/rameshkumarp"
+              style={styles.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://www.credly.com/users/rameshkumarp
+            </a>
+          </li>
           <li>Manager Choice Award – IBM (2024)</li>
           <li>Innovation Excellence Award – Impelsys (2020)</li>
           <li>IQVIA Belgium Achievement Award – Infomerica (2019)</li>
+          <li>Prize winner in Search 3.0 event of Shaastra 2009, IIT Madras</li>
+          <li>Top ranked trainee in TCS Ignite training (2007)</li>
+          <li>School rank #1 in Grade X and Grade XII public exams</li>
+          <li>Secured 100% in Mathematics and 100% in Science in Grade X</li>
         </ul>
       </Section>
 
