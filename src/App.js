@@ -33,7 +33,7 @@ function App() {
 
       <Section title="Professional Summary">
         <p>
-          Result oriented Software Architect with 14+ years of experience
+          Result oriented Software Architect with 15+ years of experience
           designing, developing, and deploying scalable, high-performance
           software solutions across diverse industries. Expert in system
           architecture, security architecture, cloud computing, microservices,
@@ -176,6 +176,9 @@ function App() {
           </li>
           <li>
             <strong>Engineer</strong> – Aspire Systems (Feb 2013 – Mar 2016)
+          </li>
+          <li>
+            <strong>Freelancer</strong> – Freelancing (Nov 2011 – Feb 2013)
           </li>
           <li>
             <strong>Associate Technology L1</strong> – Publicis Sapient (Jan
