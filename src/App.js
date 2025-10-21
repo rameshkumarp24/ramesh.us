@@ -21,12 +21,12 @@ function App() {
           </a>{" "}
           | 🌐{" "}
           <a
-            href="https://ramesh.us"
+            href="https://rameshkumarp.online"
             style={styles.link}
             target="_blank"
             rel="noopener noreferrer"
           >
-            ramesh.us
+            rameshkumarp.online
           </a>
         </p>
       </header>
@@ -238,8 +238,8 @@ function App() {
       <footer style={styles.footer}>
         <p>
           © 2025 Ramesh Kumar P |{" "}
-          <a href="https://ramesh.us" style={styles.link}>
-            ramesh.us
+          <a href="https://rameshkumarp.online" style={styles.link}>
+            rameshkumarp.online
           </a>
         </p>
       </footer>
