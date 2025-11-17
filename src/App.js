@@ -93,7 +93,7 @@ function App() {
 
       <Section title="Professional Experience">
         <Job
-          title="Lead Software Architect"
+          title="Lead Architect"
           company="IBM"
           duration="2022 – Present"
           bullets={[
