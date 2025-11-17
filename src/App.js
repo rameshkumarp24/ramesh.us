@@ -33,7 +33,7 @@ function App() {
 
       <Section title="Professional Summary">
         <p>
-          Result oriented Software Architect with 15+ years of experience
+          Result oriented Lead Architect with 15+ years of experience
           designing, developing, and deploying scalable, high-performance
           software solutions across diverse industries. Expert in system
           architecture, security architecture, cloud computing, microservices,
@@ -93,7 +93,7 @@ function App() {
 
       <Section title="Professional Experience">
         <Job
-          title="Senior Software Architect"
+          title="Lead Software Architect"
           company="IBM"
           duration="2022 – Present"
           bullets={[
