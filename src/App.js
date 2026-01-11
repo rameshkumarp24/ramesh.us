@@ -97,13 +97,14 @@ function App() {
           company="IBM"
           duration="2022 – Present"
           bullets={[
-            "Led architecture design for a $150M cloud transformation project (client: Ascension One), reducing operational costs by 35% and improving system scalability by 50%.",
-            "Designed and deployed microfrontend and microservices on AWS using Docker, ECS, and Lambda, with CI/CD pipelines via Jenkins.",
-            "Handled mobile and web applications frontend using React JS and React Native.",
-            "Introduced event-driven architecture using Kafka, improving data processing throughput by 4x.",
-            "Mentored a team of 12 engineers, improving code quality and system reliability.",
-            "Conducted architectural reviews, technical evaluations, and POCs for new technology adoption.",
-            "Key Achievements: Architect of the Year award (2024); Achieved 99.99% uptime for mission-critical applications.",
+            "Led architecture design for a $150M cloud transformation project (client: Ascension One), reducing operational costs by 35% and improving system scalability by 50%",
+            "Designed and deployed microfrontend and microservices on AWS using Docker, ECS, and Lambda, with CI/CD pipelines via Jenkins",
+            "Handled mobile and web applications frontend using React JS and React Native",
+            "Developed GenAI enablement for Ascension One by embedding LLM-powered features such as smart search, care-plan summarization, and conversational assistance, enhancing patient experience and reducing support overhead",
+            "Introduced event-driven architecture using Kafka, improving data processing throughput by 4x",
+            "Mentored a team of 12 engineers, improving code quality and system reliability",
+            "Conducted architectural reviews, technical evaluations, and POCs for new technology adoption",
+            "Key Achievements: Architect of the Year award (2024); Achieved 99.99% uptime for mission-critical applications",
             <>
               <strong>Project reference links:</strong> 🌐{" "}
               <a
@@ -140,11 +141,11 @@ function App() {
           company="Impelsys"
           duration="2019 – 2022"
           bullets={[
-            "Architected a SaaS-based multi-tenant platform on Kubernetes and AWS.",
-            "Transitioned applications from monolithic to microservices, improving deployment velocity and system resilience.",
-            "Implemented Redis caching, reducing average API response time by 30%.",
-            "Collaborated with cross-functional teams to define technical strategies aligned with business goals.",
-            "Key Achievements: Reduced time-to-market by 25%; Built API gateway handling 10,000+ concurrent requests.",
+            "Architected a SaaS-based multi-tenant platform on Kubernetes and AWS",
+            "Transitioned applications from monolithic to microservices, improving deployment velocity and system resilience",
+            "Implemented Redis caching, reducing average API response time by 30%",
+            "Collaborated with cross-functional teams to define technical strategies aligned with business goals",
+            "Key Achievements: Reduced time-to-market by 25%; Built API gateway handling 10,000+ concurrent requests",
           ]}
         />
         <Job
@@ -152,10 +153,10 @@ function App() {
           company="Infomerica"
           duration="2018 – 2019"
           bullets={[
-            "Designed scalable backend systems with Java, Spring Boot, and MySQL.",
-            "Led third-party system integrations (payment gateways, CRMs).",
-            "Promoted automated testing and peer code review practices.",
-            "Key Achievements: Reduced system incidents by 40%; Improved feature delivery speed by 20%.",
+            "Designed scalable backend systems with Java, Spring Boot, and MySQL",
+            "Led third-party system integrations (payment gateways, CRMs)",
+            "Promoted automated testing and peer code review practices",
+            "Key Achievements: Reduced system incidents by 40%; Improved feature delivery speed by 20%",
           ]}
         />
         <p style={styles.paragraph}>
